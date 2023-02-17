@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace DddInPractice.Logic.Common
+namespace Ddd.Common
 {
     public abstract class ValueObject<T>
         where T : ValueObject<T>
